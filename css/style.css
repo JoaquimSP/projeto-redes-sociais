@@ -54,4 +54,12 @@ section#redes-sociais img {
     margin: 10px;
     border-radius: 50px; /* imagens dos ícones arredondadas */
     box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.623);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.856);
+    transition: transform 0.5s; /* meio segundo para fazer a transição quando passar o mouse em cima do ícone */
 }
