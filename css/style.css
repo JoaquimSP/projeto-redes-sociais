@@ -44,3 +44,14 @@ iframe#tela {
     width: 269px;
     height: 471px;
 }
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50px; /* imagens dos ícones arredondadas */
+    box-shadow: 2px 2px 5px black;
+}
